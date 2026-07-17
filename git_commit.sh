@@ -9,8 +9,8 @@ git add .
 
 git commit -m "$message"
 
-echo "Code Commit Success...\n commit message = $message"
+echo "\n\nCode Commit Success... message = $message \n\n"
 
 git push
 
-echo "Code push Success..."
+echo "\n\nCode push Success..."
