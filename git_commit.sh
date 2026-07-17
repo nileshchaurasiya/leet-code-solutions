@@ -1,5 +1,5 @@
 #!/bin/bash
-message='initial Test for sh command'
+message='Started Solving 283. Move Zeroes'
 
 # echo "$message"
 
@@ -13,4 +13,4 @@ echo "\n\nCode Commit Success... message = $message \n\n"
 
 git push
 
-echo "\n\nCode push Success..."
+echo "\n\nCode push Success...\n\n"
