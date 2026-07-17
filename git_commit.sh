@@ -1,5 +1,5 @@
 #!/bin/bash
-message='initial Test for sh command'
+message=initial Test for sh command
 
 git status
 
