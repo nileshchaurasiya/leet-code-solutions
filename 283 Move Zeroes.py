@@ -14,5 +14,14 @@
 # Output: [0]
 
 # Solutions
-
-
+class Solution:
+  def moveZeroes(self, arr: list[int]) -> None:
+    start=0
+    for next in range(len(arr)):
+      if arr[next]!=0:
+        arr[start],arr[next]=arr[next],arr[start]
+        start+=1
+    return(arr)
+obj=Solution()
+arr=[0, 1, 0, 3, 12]
+print(obj.moveZeroes(arr))
