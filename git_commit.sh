@@ -1,5 +1,5 @@
 #!/bin/bash
-message='local user changes'
+message='27. Remove Element'
 
 # echo "$message"
 
