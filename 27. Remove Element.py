@@ -48,12 +48,7 @@ class Solution(object):
           if val != nums[i]:
             nums[k] =nums[i]
             k+=1
-        #     result.append(nums[i])
-        #   elif val == nums[i]:
-        #     pass
-        # print(len(result))
         return k
-        # return(len(result))
 obj = Solution()
 nums = [0,1,2,2,3,0,4,2]
 val = 2

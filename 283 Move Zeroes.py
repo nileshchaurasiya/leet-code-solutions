@@ -16,12 +16,19 @@
 # Solutions
 class Solution:
   def moveZeroes(self, arr: list[int]) -> None:
-    start=0
-    for next in range(len(arr)):
-      if arr[next]!=0:
-        arr[start],arr[next]=arr[next],arr[start]
-        start+=1
+    j=0
+    for i in range(len(arr)):
+      print(arr[i])
+      if arr[i]!=0:
+        print("new",arr[i])
+        arr[j]=arr[i]
+        j+=1
+    for i in range(j,len(arr)):
+        print("hiih")
+        arr[i]=0
     return(arr)
 obj=Solution()
-arr=[0, 1, 0, 3, 12]
+arr=[0,1,1,0,3,12]
 print(obj.moveZeroes(arr))
+
+

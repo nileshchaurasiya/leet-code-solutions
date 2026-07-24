@@ -35,7 +35,7 @@ class Solution:
                 nums[i] = nums[j]
         return i + 1
 obj = Solution()
-nums = [1, 1, 2]
+nums = [1, 1, 5]
 k = obj.removeDuplicates(nums)
 print("k", k)
 print( nums[:k])
